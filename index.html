@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Task & Coins System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>Welcome to Task & Coins System</h1>
+    <div id="user-info">
+      <p>Email: <span id="user-email"></span></p>
+      <p>Coins: <span id="user-coins">0</span></p>
+    </div>
+    <div class="tasks">
+      <a href="survey.html" class="task-button">Complete Survey (+5 Coins)</a>
+      <a href="games.html" class="task-button">Play Games (+5 Coins)</a>
+      <button onclick="completeTask('ads')" class="task-button">Watch Ads (+5 Coins)</button>
+      <button onclick="completeTask('app_install')" class="task-button">Install App (+5 Coins)</button>
+    </div>
+    <div class="navigation">
+      <a href="withdrawal.html" class="nav-button">Withdraw Coins</a>
+    </div>
+  </div>
+
+  <script src="js/firebase-config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
