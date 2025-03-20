@@ -1,0 +1,58 @@
+/* css/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard, .withdrawal, .games, .survey {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+
+.task-button, .nav-button, .withdraw-button, .game-button, .subscribe-button, .complete-button, .back-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.task-button:hover, .nav-button:hover, .withdraw-button:hover, .game-button:hover, .subscribe-button:hover, .complete-button:hover, .back-button:hover {
+  background-color: #0056b3;
+}
+
+#user-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.withdrawal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.withdrawal-form select, .withdrawal-form input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
